@@ -9,7 +9,7 @@ import {
   FaSkype,
   FaTwitter,
 } from "react-icons/fa";
-import profile from "../../../images/profile.jpg";
+import profile from "../../../images/profile.png";
 
 const socials = [
   {
@@ -61,11 +61,11 @@ const Sidebar = () => {
         <img src={profile} alt="shafiqhammad" className="w-full" />
       </div>
       <div className="text-center">
-        <h1 className="text-xl text-gray-800 font-bold mb-1">John Doe</h1>
+        <h1 className="text-xl text-gray-800 font-bold mb-1">Adamari López</h1>
         <p className="text-sm text-gray-400 mb-3">
-          Frontend Web Developer at
+          Mechatronics engineering student
           <a href="#0" className="text-purple-600 pl-1">
-            Abc Company
+          Universidad Tecnológica de la Mixteca
           </a>
         </p>
         <a
@@ -86,10 +86,9 @@ const Sidebar = () => {
           About Me
         </h3>
         <p className="text-gray-400 text font-light leading-relaxed">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus.
+          My name is Adamari Lopez. I am a Mechatronics Engineering student at the Mixteca Technological University   (UTM). Currently I finished the sixth semester.
+          I have a lot of interest in the area of ​​robotics, some specific areas are medicine, industrial manufacturing, education, aerospace, etc.
+          In my free time I watch series, movies or just play video games.
         </p>
       </div>
     </aside>
